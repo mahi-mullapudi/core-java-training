@@ -14,5 +14,8 @@ public class LocalVariable {
     public static void main(String args[]) {
         LocalVariable test = new LocalVariable();
         test.calculateAge();
+        // Code to show the scope of the local variable
+        int age = 10;
+        System.out.println("local age value inside main is : " + age);
     }
 }
