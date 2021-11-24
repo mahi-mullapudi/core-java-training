@@ -20,7 +20,7 @@ public class HomeAutomationDemo {
         remote.setCommand(new TurnOnLightCommand(livingRoomLight));
         remote.buttonPressed();
 
-        remote.setCommand(new TurnOnLightCommand(bedRoomLight));
+        remote.setCommand(new TurnOffLightCommand(bedRoomLight));
         remote.buttonPressed();
 
         remote.setCommand(new StartFanCommand(livingRoomFan));

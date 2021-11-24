@@ -8,6 +8,5 @@ public class Fan {
 
     void stop() {
         System.out.println("Fan stopped..");
-
     }
 }

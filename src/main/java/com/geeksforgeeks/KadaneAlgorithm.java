@@ -10,8 +10,6 @@ import java.util.Scanner;
  * The first line of each test case contains a single integer N denoting the size of array.
  * The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
  */
-public class KadaneAlgoithm {
+public class KadaneAlgorithm {
     Scanner scanner = new Scanner(System.in);
-
-
 }
